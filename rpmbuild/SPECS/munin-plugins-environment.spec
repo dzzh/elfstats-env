@@ -1,5 +1,5 @@
 Name:		munin-plugins-environment		
-Version:	1.0
+Version:	1.01
 Release:	1.el6
 Summary:	A Python virtual environment configured to support Munin monitoring plugins.
 
