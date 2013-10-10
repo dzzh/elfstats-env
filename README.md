@@ -1,6 +1,6 @@
 # elfstats-env
 
-A Python virtual environment which is used in `elfstats` project to support [elfstatsd](https://github.com/dzzh/elfstatsd) and [elfstats-munin](https://github.com/dzzh/elfstats-munin).
+A Python virtual environment which is used in `elfstats` project to support [elfstatsd][] and [elfstats-munin][].
 
 This repository contains source files to build RPM package with a virtual environment for Red Hat Enterprise Linux 6 (RHEL6). This virtual environment will be installed into `/srv/virtualenvs/elfstats`. The environment contains all Python packages needed for `elfstats` to operate.
 
@@ -49,3 +49,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 [me]: https://github.com/dzzh
+[elfstatsd]: https://github.com/dzzh/elfstatsd
+[elfstats-munin]: https://github.com/dzzh/elfstats-munin
