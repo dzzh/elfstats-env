@@ -1,6 +1,6 @@
 # elfstats-env
 
-A Python virtual environment which is used in `elfstats` project to support [elfstatsd][] and [elfstats-munin][].
+A Python virtual environment which is used in [elfstats][] project to support [elfstatsd][] and [elfstats-munin][].
 
 This repository contains source files to build RPM package with a virtual environment for Red Hat Enterprise Linux 6 (RHEL6). This virtual environment will be installed into `/srv/virtualenvs/elfstats`. The environment contains all Python packages needed for `elfstats` to operate.
 
@@ -22,11 +22,11 @@ Build an RPM following the procedure described in Build section and run `sudo yu
 
 ## elfstats on other operating systems
 
-If you work with different operating system but still want to benefit from `elfstats` project, you can either install it using your default Python or create a virtual environment yourself. You can find more information about this procedure in [readme](https://github.com/dzzh/elfstatsd/blob/master/README.md) for `elfstatsd`.
+If you work with different operating system but still want to benefit from the `elfstats` project, you can either install it using your default Python or create a virtual environment yourself. You can find more information about this procedure in [readme](https://github.com/dzzh/elfstatsd/blob/master/README.md) for `elfstatsd`.
 
 ## License
 
-Eelfstatsd is available under the terms of MIT License.
+Eelfstats-env is available under the terms of MIT License.
 
 Copyright © 2013 [Źmicier Žaleźničenka][me] & Andriy Yakovlev.
 
@@ -49,5 +49,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 [me]: https://github.com/dzzh
+[elfstats]: https://github.com/dzzh/elfstats
 [elfstatsd]: https://github.com/dzzh/elfstatsd
 [elfstats-munin]: https://github.com/dzzh/elfstats-munin
